@@ -1,0 +1,32 @@
+.wrap { text-align:center; line-height:10px; padding:0px; }
+.auto{display:inline-block;}
+
+	ul.pagination {
+  text-align:center;
+  color:#3C8DBC;
+}
+ul.pagination li {
+  display:inline;
+  padding:0 3px;
+  float: left;
+}
+ul.pagination a {
+  color:#3C8DBC;
+  display:inline-block;
+  padding:5px 10px;
+  border:1px solid #cde0dc;
+  text-decoration:none;
+}
+ul.pagination a:hover,
+ul.pagination a.current {
+  background:#3C8DBC;
+  color:#fff;
+}
+.page_info{
+margin-top: 13px;
+}
+.item{
+padding-left: 15px;
+padding-bottom: 5px;
+padding-top: 5px;
+}

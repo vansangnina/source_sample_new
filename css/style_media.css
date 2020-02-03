@@ -1,0 +1,155 @@
+
+/*==========*/
+@media(min-width: 1000px) and (max-width:1024px){
+	.col_left_cart{width:70%;}
+	.col_right_cart{width:30%;}
+}
+@media screen and (min-width:1024px){
+	.col_news:nth-child(4n+1){clear: both;}
+}
+@media screen and (max-width: 1024px){
+	.box-info-product{width:45%;}
+	.box-price{width:25%;}
+	.quantity-block{width:20%;float: right;}
+
+
+	#container{padding-left:10px;padding-right: 10px;box-sizing: border-box;}
+	.logo{width:20%;}
+	.contain_slider{width:100%;padding:10px;box-sizing: border-box;max-width:100%}
+	.content_footer_full{padding-left: 15px;padding-right: 15px;box-sizing: border-box;}
+	#menu{height:45px;}
+	.category{display: none}
+	.slider_category{margin-top:0px;}
+	#timkiem{width:40%;}
+	.cart{margin-right:15px;}
+	.col_product{padding-left:10px;padding-right: 10px;}
+	.row_product{margin-right:-10px;margin-left:-10px;}
+	#register_email {
+	    padding: 47px 0px;
+	    background-size: 229px 96px,cover;
+	    background-repeat: no-repeat,no-repeat;
+	    background-position: right 20px top 20px,0;
+	}
+	#news_video{padding:35px 0px;}
+	#bottom{padding-left:15px;padding-right:15px;}
+	
+}
+@media(max-width:969px){
+	.btn_Cart_Detail{width:42%;}
+	.col_left_cart,.list_product,.contain_news_scroll{width:100%;}
+	.col_right_cart{width:40%;float: right;margin-top:5px;}
+	.box-price{text-align: center;}
+
+	.col_product{padding-left:9px;padding-right:9px;}
+	.row_product{margin-left:-9px;margin-right:-9px;}
+	.item_footer{margin-bottom:20px;}
+}
+@media(max-width:800px){
+	.logo{width:25%;}
+	.hotline{display: none;}
+	#timkiem{width:55%;}
+	#timkiem input[type="text"]{width:77%;}
+	#timkiem #btn{width:23%;}
+	.col_product{width:33.33%;}
+	.thongtin_pay,.httt_pay{width:50%;}
+	.info_cart{width:100%;}
+}
+@media screen and (min-width: 0px) and (max-width: 768px){
+	/*commont*/
+	#top img{width: 35px;}
+	.center_m{text-align: center !important;}
+	.text{padding: 0px 10px;}
+	.xs-hid{display: none;}
+	.pdm{padding: 0px;}
+	/*temp*/
+	/*[class*="col-"]{margin-top: 10px;}*/
+	.padding_min,.paddingright0,.paddingleft0{padding: 0px;}
+	.padding_min5{padding: 0px 5px;}
+	.padding_min10{padding: 0px 10px;}
+	.margin_min{margin-left: 0px;margin-right: 0px}
+	
+
+	.contain_form_send_ask{padding: 10px;}
+	.box_info_form,.box_info_giohang {width: 100%;padding: 0px;}
+	/*news*/
+	.item_news_other{width: 100%;}
+	/*lien he*/
+	.left_lienhe{width: 100%;}
+	.right_lienhe{width: 100%;}
+	#timkiem{width:52%;}
+}
+/*====================*/
+
+@media screen and (max-width:1170px){
+	#menu ul.menu{display:none;}
+	#btn_menu_bootstrap{display:block !important;}
+	.contain_search{float:right;}
+}
+
+
+
+@media screen and (min-width:1170px){
+	/*#menu_bootstrap{display:none !important;}*/
+}
+@media screen and (max-width: 600px){
+	/*cart*/
+	.box-price,.quantity-block{width:50%;}
+	.box-info-product{width:100%;}
+	.img-thumnail-custom{width:25%;}
+	.col-right{width:75%;}
+	.col_right_cart{width:60%;}
+	/*form*/
+	.notify_login{text-align: center;}
+	.left_body_form,.right_body_form{width: 100%;}
+	.table_form .my_cell{display: block;}
+	.table_form .my_cell_title{text-align: left;}
+	.logo{width:45%;margin:10px auto 0px auto;float: none;}
+	#header{height: auto;padding-bottom:10px;}
+	#timkiem{width:70%;margin-left:15px;}
+	.col_product{width:50%;}
+	.content_email{padding:15px;box-sizing:border-box;}
+	.content_email .row{margin-left:0px;margin-right:0px;}
+	.register_mail{padding:30px 15px;}
+	.item_footer:nth-child(2),.item_footer:nth-child(3){width:50%;}
+	.title_email{font-size:25px;}
+}
+
+@media screen and (max-width: 500px){
+	.tablelienhe{display: block;}
+	.tablelienhe .my_row{display: block;}
+	.tablelienhe .my_row .my_cell{
+		display: block;
+		padding: 0px;
+		text-align: left;
+	}
+	.notify_check{padding: 0px;}
+	.tablelienhe .my_row .my_cell .input,
+	.tablelienhe .my_row .my_cell textarea
+	{
+		width: 100%;
+		margin-bottom: 10px;
+	}
+
+	.l50,.r50{width:100%;padding: 0px;}
+	.item_footer:nth-child(n){width: 100%;}
+	.copyright,.counter{display:block;float: none;width:100%;text-align: center;}
+	.thongtin_pay,.httt_pay{width:100%;}
+	.col_right_cart{width:100%;}
+}
+@media(max-width:414px){
+	#timkiem{width:95%;}
+	.col_news{width:100%;}
+	.col_product{width:50%;}
+	.cart{position: absolute;top:10px;right:10px;}
+	.logo{width:40%;float: left;margin-left:20px;}
+	.price_product span{
+		width: 67px;
+	    height: 24px;
+	    line-height: 24px;
+	    font-size:12px;
+	}
+	.price_product .price_now{font-size:13px;}
+}	
+@media screen and (max-width:350px){
+	.contain_search label{display:none;}
+}

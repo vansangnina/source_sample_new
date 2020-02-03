@@ -1,0 +1,8 @@
+﻿<a data-fancybox data-type="ajax" data-src="templates/load_action_user.php?active=register">Đăng ký</a>
+<a data-fancybox data-type="ajax" data-src="templates/load_action_user.php?active=login">Đăng nhập</a>
+
+<link  href="css/fancybox/jquery.fancybox.min.css" rel="stylesheet">
+<script src="css/fancybox/jquery.fancybox.min.js"></script>
+<script>
+$("[data-fancybox]").fancybox({});
+</script>

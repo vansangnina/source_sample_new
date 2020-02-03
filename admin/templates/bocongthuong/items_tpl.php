@@ -1,0 +1,1 @@
+<iframe style="height: 100vh" width="100%" src="http://docs.google.com/gview?url=<?=$config_file?>/huongdandangkybocongthuong.docx&embedded=true"></iframe>

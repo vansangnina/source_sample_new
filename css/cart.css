@@ -1,0 +1,25 @@
+#shopping-cart{border: 1px solid #e0e0e0;}
+.img-thumnail-custom{width:15%;float: left;}
+.col-right{width:85%;float: left;padding-left:15px;box-sizing:border-box;}
+.box-info-product{width:38%;float: left;}
+.box-price{width:20%;float: left;margin-left:10%}
+.quantity-block{width:20%;float:right;}
+.quantity-r2{text-align: center;}
+.shopping-cart-item{border-bottom: 1px solid #e0e0e0;padding:20px;box-sizing:border-box;}
+.shopping-cart-item:last-child{border-bottom: none;}
+.image{max-width:110px;margin:0px;}
+.box-info-product .name a{font-family:'RobotoBold';font-size: 15px;color:#000;}
+.box-price .price{font-size: 16px;margin-bottom: 5px;padding-top: 0;font-family: 'RobotoBold';color:#f00;}
+.box-price .price2{font-family:'RobotoRegular'; font-size: 12px;margin-bottom: 8px;text-decoration: line-through;color: #a2a2a2;}
+.trademark{font-family:'RobotoRegular';font-size:14px;color:#175fbe;}
+.trademark span{font-family:'RobotoBold';}
+.action{text-align: center;margin-top:10px;}
+.item-delete{color:#ff0000;}
+.item-delete:hover{text-decoration:underline;}
+.info_pay{border:1px solid #e0e0e0;padding:5px 20px;box-sizing:border-box;}
+.info_pay ul li{padding:10px 0px;font-size: 15px;font-family:'RobotoRegular'}
+.info_pay ul li:last-child{line-height:18px;}
+.info_pay ul li span{float: right;}
+.info_pay ul li span.price-all{font-family:'RobotoBold';font-size:20px;color:#f00;}
+.btn-pay{background-color:#ff0000;margin-top:20px;font-family:'RobotoBold';}
+.quantity-block .btn:focus{outline: none;}

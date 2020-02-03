@@ -1,0 +1,67 @@
+.content_pay{border:1px solid #e0e0e0;margin-top: 5px;padding: 0px;}
+.thongtin_pay,.httt_pay,.info_cart{width:33.33%;float: left;padding: 15px;box-sizing: border-box;}
+.thongtin_pay{border-right:1px solid #e0e0e0;}
+.info_cart{border-left: 1px solid #e0e0e0;}
+.trademark{font-family:'MuliRegular';font-size:13px;color:#175fbe;}
+.trademark span{font-family:'MuliBold';}
+.title_pay{margin-bottom: 15px;text-transform: uppercase;font-family: 'RobotoBold';font-size: 15px;}
+.content_httt{display: none;padding-left: 15px;}
+.content_httt.active{display: block;}
+.radio {
+  margin: 15px 0px;
+}
+.radio label{padding-left: 0px;font-family: 'RobotoRegular';font-size: 14px;}
+.radio input[type="radio"] {
+  position: absolute;
+  opacity: 0;
+}
+.radio input[type="radio"] + .radio-label:before {
+  content: "";
+  background: #f4f4f4;
+  border-radius: 100%;
+  border: 1px solid #b4b4b4;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  top: 1px;
+  margin-right: 1em;
+  vertical-align: top;
+  cursor: pointer;
+  text-align: center;
+  -webkit-transition: all 250ms ease;
+  transition: all 250ms ease;
+}
+.radio input[type="radio"]:checked + .radio-label:before {
+  background-color: #ff6600;
+  -webkit-box-shadow: inset 0 0 0 4px #f4f4f4;
+  box-shadow: inset 0 0 0 4px #f4f4f4;
+}
+.radio input[type="radio"]:focus + .radio-label:before {
+  outline: none;
+  border-color: #3197ee;
+}
+.radio input[type="radio"]:disabled + .radio-label:before {
+  -webkit-box-shadow: inset 0 0 0 4px #f4f4f4;
+          box-shadow: inset 0 0 0 4px #f4f4f4;
+  border-color: #b4b4b4;
+  background: #b4b4b4;
+}
+.radio input[type="radio"] + .radio-label:empty:before {
+  margin-right: 0;
+}
+.form_pay #tinhthanh{width: 48%;float: left;}
+.form_pay #quanhuyen{width: 48%;float: right;}
+.txtghichu{box-sizing: border-box;padding: 5px;height: 65px;width: 100%;font-family: 'Arial';border:1px solid #e0e0e0;}
+.item_cart_pay{padding: 5px 0px;}
+.img_pay{width:30%;float: left;border:1px solid #e0e0e0;}
+.info_cart_pay{width:68%;float: right;}
+.info_cart_pay b{margin-bottom: 6px;display: block;}
+.info_cart_pay p{margin-bottom: 3px;}
+.gia_pay{font-size: 14px;}
+.contain_hoadon{border-bottom: 1px solid #e0e0e0;}
+.btnPay{width: 100%;height: 40px;background-color: #D60C0C;color:#fff;text-transform: uppercase;border:none;margin-top: 10px;font-size: 18px;font-family: 'RobotoBold';}
+.content_price_pay{margin-top: 10px;}
+.content_price_pay ul li{padding: 5px 0px;}
+.content_price_pay ul li span{font-size: 14px;}
+.content_price_pay ul li span.info{float: right;color:#f00;}

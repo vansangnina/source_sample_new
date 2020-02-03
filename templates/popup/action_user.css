@@ -1,0 +1,33 @@
+#register_login{max-width:900px;width:100%;background:#f7f7f7;}
+.fancybox-slide>*{padding:0px !important;border-radius:8px !important;}
+.left{width:40%;float:left;background:#fff;}
+.right{width:60%;float:left;padding:15px;}
+.content_bg{background:#fff;padding:25px;box-sizing:border-box;}
+.top_left{padding:15px;box-sizing:border-box;}
+.title_user{font-size:30px;font-family:'RobotoLight';padding:5px 0px;}
+.content_tab_user{padding:15px 0px;box-sizing:border-box;}
+.top_left span{font-size:16px;line-height:27px;font-family:'RobotoLight';display:block;margin-top:10px;}
+.item_tab_user{text-align: center;font-size:18px;border-bottom:1px solid #e0e0e0;}
+.item_tab_user a{display:inline-block;padding:5px 20px;color:#6d6d6d;font-family:'RobotoRegular';transition:0.2s all;}
+.item_tab_user a:hover,.item_tab_user a.active{position:relative;color:#0080bf;font-family:'RobotoBold';text-decoration:none;}
+.item_tab_user a:hover::after,.item_tab_user a.active::after{position:absolute;content:"";width:100%;height:3px;background:#0080bf;bottom:-1px;left:0px;}
+.content_tab_user .form-group{margin-bottom:5px;}
+.content_tab_user .form-group > label{width:23%;float:left;font-weight:normal;font-size:12px;font-family:'RobotoRegular';line-height:33px;}
+.content_tab_user .form-group .boxRight{width:77%;float:right;}
+.content_tab_user .form-group .boxRight .form-control{border-radius:0px;box-shadow:none;height:33px;background:#f5f5f5;border:none;font-size:12px;}
+.boxRight .radio label{width:30%;}
+.boxRight select{width:31%;float:left;height:33px;border:none;background:#f5f5f5;outline:none;margin-right:3%;padding-left:5px;box-sizing:border-box;}
+.boxRight select:nth-child(3){margin-right:0px}
+.boxButton{width:85%;margin:10px auto;}
+.btnSuccess{width:100%;height:40px;background:#0080bf;color:#fff;text-transform:uppercase;border:none;border-radius:5px;font-family:'RobotoBold'}
+.boxButton > p{font-family:'RobotoRegular';font-size:13px;margin:10px 0px;line-height:23px;}
+.icon{padding:9px 0px;width:12%;float:left;text-align:center;}
+.icon i{font-size:15px;}
+.iconFb{border-right:1px solid #2f4779;}
+.iconG{border-right:1px solid #b23a28;padding:9px 0px;}
+.textFB{text-align:center;width:88%;float:left;line-height:40px;}
+.loginSocial{cursor:pointer; display:block;height:40px;width:100%;margin-bottom:10px;border:1px solid #fff;border-radius:5px;color:#fff;font-family:'RobotoBold';font-size:14px;}
+.loginSocial:hover{color:#fff;}
+#LoginFB{border-color:#3b5997;background:#3b5997;margin-top:20px;}
+#LoginG{border-color:#de4932;background:#de4932}
+#error{color:#f00;text-align: center;font-size:13px;display:block;}
